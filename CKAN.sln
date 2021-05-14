@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKAN-netkan", "Netkan\CKAN-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4F41255E-8BC1-465B-82D5-1C5665BC099A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKAN-ThisDoesNotExists", "Plugins\ThisDoesNotExists\CKAN-ThisDoesNotExists.csproj", "{4FA5A288-1836-4182-B025-6407455AED63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_NetCore|Any CPU = Debug_NetCore|Any CPU
@@ -71,6 +73,14 @@ Global
 		{4F41255E-8BC1-465B-82D5-1C5665BC099A}.Release_NetCore|Any CPU.Build.0 = Release_NetCore|Any CPU
 		{4F41255E-8BC1-465B-82D5-1C5665BC099A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F41255E-8BC1-465B-82D5-1C5665BC099A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Debug_NetCore|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Debug_NetCore|Any CPU.Build.0 = Debug|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Release_NetCore|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Release_NetCore|Any CPU.Build.0 = Release|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA5A288-1836-4182-B025-6407455AED63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,9 +88,9 @@ Global
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.TextStylePolicy = $1
-		$1.inheritsSet = VisualStudio
-		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
+		$1.FileWidth = 80
+		$1.TabsToSpaces = True
 		$0.CSharpFormattingPolicy = $2
 		$2.IndentSwitchBody = True
 		$2.IndentBlocksInsideExpressions = True
@@ -106,9 +116,22 @@ Global
 		$2.BeforeDelegateDeclarationParentheses = False
 		$2.NewParentheses = False
 		$2.SpacesBeforeBrackets = False
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		$2.SpaceAfterMethodCallName = False
+		$2.IndentSwitchSection = False
+		$2.NewLinesForBracesInProperties = False
+		$2.NewLinesForBracesInAccessors = False
+		$2.NewLinesForBracesInAnonymousMethods = False
+		$2.NewLinesForBracesInControlBlocks = False
+		$2.NewLinesForBracesInAnonymousTypes = False
+		$2.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$2.NewLinesForBracesInLambdaExpressionBody = False
+		$2.NewLineForElse = False
+		$2.NewLineForCatch = False
+		$2.NewLineForFinally = False
+		$2.NewLineForMembersInObjectInit = False
+		$2.NewLineForMembersInAnonymousTypes = False
+		$2.NewLineForClausesInQuery = False
+		$2.SpacingAfterMethodDeclarationName = True
+		$2.SpaceBeforeOpenSquareBracket = True
 	EndGlobalSection
 EndGlobal
